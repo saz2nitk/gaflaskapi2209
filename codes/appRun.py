@@ -36,4 +36,4 @@ def last_words_api():
     return str(last_words)    
 
 if __name__=='__main__':
-    preprocess_app.run(host='0.0.0.0',port=8080,debug=True)
+    preprocess_app.run(host='0.0.0.0',port=80,debug=True)
